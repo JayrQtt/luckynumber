@@ -1,0 +1,51 @@
+body{
+  background: rgb(98, 99, 99);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .second{
+  width: 800px;
+  height: 400px;
+  background: rgb(184, 175, 175);
+  box-shadow: inset 6px 6px 100px gray;
+  
+}
+
+ h1{
+  text-align: center;
+  display: flex;
+  
+} 
+
+button{
+  margin:  20px;
+  width: 70px;
+  height: 40px;
+  text-transform: uppercase;
+  box-shadow: inset 1px 1px 10px rgb(178, 171, 169);
+}
+
+input{
+  margin: 0 0 0 250px;
+  height: 30px;
+  width: 250px;
+  box-shadow: inset 1px 1px 200px rgb(87, 85, 85);
+  color: white;
+  text-align: end;
+  font-size: 19px;
+}
+
+#output{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+
+}
